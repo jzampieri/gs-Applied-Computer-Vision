@@ -1,0 +1,39 @@
+# ============================================================
+# Orbital Logis — GAIE | ACV Global Solution 2026
+# Dependências Python
+#
+# NOTA: Recomendado Python 3.10 ou 3.11.
+# Python 3.14 ainda não tem suporte completo para todos os pacotes.
+# Instalar com: python -m pip install -r requirements.txt
+#
+# Para PyTorch com GPU CUDA:
+#   python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+# Para CPU apenas:
+#   python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+# ============================================================
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Dados e visualização
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+
+# Machine Learning / Métricas
+scikit-learn>=1.2.0
+
+# Imagens
+Pillow>=9.5.0
+
+# Progresso e utilitários
+tqdm>=4.65.0
+
+# Interface de demonstração
+gradio>=3.40.0
+
+# Jupyter
+jupyter>=1.0.0
+ipywidgets>=8.0.0

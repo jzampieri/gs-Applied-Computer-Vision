@@ -143,6 +143,8 @@ GS-Computer-Vision/
 ├── orbital_logis_acv.ipynb    # Notebook principal (treino, avaliação, demo)
 ├── requirements.txt            # Dependências Python
 ├── README.md                   # Este arquivo
+├── models/
+│   └── architecture.py         # Definição das classes PyTorch dos dois modelos
 ├── models_saved/               # Pesos salvos após treinamento (gerado)
 │   ├── orbital_baseline.pth
 │   └── orbital_deep.pth
